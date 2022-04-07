@@ -35,4 +35,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo "The value of GITHUB_REPOSITORY is: " $GITHUB_REPOSITORY
+          echo "The value of GITHUB_REF is: " $GITHUB_REF
+          echo "The value of BUILD_DIRECTORY is: " $BUILD_DIRECTORY
   
